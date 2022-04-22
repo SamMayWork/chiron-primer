@@ -11,6 +11,7 @@ All the information you need to get started working with Rust using the Chiron t
     - [Running on Linux](#running-on-linux)
     - [Running on Windows](#running-on-windows)
     - [Generic Running](#generic-running)
+  - [Loading content into the tool](#loading-content-into-the-tool)
 
 ---
 
@@ -22,7 +23,7 @@ All the information you need to get started working with Rust using the Chiron t
 
 To run the Container you will need the [Docker Engine](https://www.docker.com/get-started/) installed on your machine. Additionally, Google Chrome and some kind of text-editor should be installed. The pre-configured start scripts assume you use Google Chrome as your default browser, and Visual Studio Code is installed on your machine.
 
-If you do not use Chrome or Visual Studio Code, jump to []() to see generic instructions.
+If you do not use Chrome or Visual Studio Code, jump to [Generic Running](#generic-running) to see generic instructions.
 
 ---
 
@@ -93,3 +94,13 @@ docker run -d -p 8080:8080 -v /tmp/rust:/host ssmay0/chiron-rust-client
 Then open `/tmp/rust` in your favourite text-editor, and `http://localhost:8080` in your favourite browser.
 
 ---
+
+## Loading content into the tool
+
+When loading the page on `localhost:8080` you will see a page like the following:
+
+![Upload Page](images/upload.png)
+
+In the text field enter the URL provided by the lecturer and if the content load is successful, you'll see the page containing the content and a terminal. 
+
+If there is an issue loading the content, an error box will appear with more information.
