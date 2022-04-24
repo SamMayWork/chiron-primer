@@ -48,6 +48,8 @@ CONTAINER ID   IMAGE                                 COMMAND                  CR
 
  - Run `docker delete <some ID>`
 
+If you're having any issues, please checks you have completed all pre-requisite steps and then consult [the errors documentation](ERRORS.md)
+
 ---
 
 ### Running on Linux
@@ -71,6 +73,8 @@ CONTAINER ID   IMAGE                                 COMMAND                  CR
 
  - Run `docker delete <some ID>`
 
+If you're having any issues, please checks you have completed all pre-requisite steps and then consult [the errors documentation](ERRORS.md)
+
 ---
 
 ### Running on Windows
@@ -84,6 +88,8 @@ Running on Windows can cause some strange compatibility issues, but should work 
 If you see a browser window to `localhost:8080` and a Visual Studio Code window open, everything has worked.
 
 If you'd prefer to use a different text-editor, make sure you open the directory `%TEMP%\rust` to edit files.
+
+If you're having any issues, please checks you have completed all pre-requisite steps and then consult [the errors documentation](ERRORS.md)
 
 ---
 
@@ -100,6 +106,8 @@ docker run -d -p 8080:8080 -v /tmp/rust:/host ssmay0/chiron-rust-client
 ```
 
 Then open `/tmp/rust` in your favourite text-editor, and `http://localhost:8080` in your favourite browser.
+
+If you're having any issues, please checks you have completed all pre-requisite steps and then consult [the errors documentation](ERRORS.md)
 
 ---
 
