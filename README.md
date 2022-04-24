@@ -75,7 +75,15 @@ CONTAINER ID   IMAGE                                 COMMAND                  CR
 
 ### Running on Windows
 
-Instructions to be created shortly...
+Running on Windows can cause some strange compatibility issues, but should work if you do the following:
+ - [Install Docker Desktop](https://www.docker.com/products/docker-desktop/)
+   - Open Docker Desktop and accept the new license agreement
+   - If WSL2 is not installed on your machine, this must be installed to enable the Docker Engine, use the [guide here to download and configure WSL2](https://docs.microsoft.com/en-us/windows/wsl/install). 
+ - Open a terminal window in this repository and execute the file `windows-start.bat` by entering the name of the file. Double clicking the file may also start it appropriately. 
+
+If you see a browser window to `localhost:8080` and a Visual Studio Code window open, everything has worked.
+
+If you'd prefer to use a different text-editor, make sure you open the directory `%TEMP%\rust` to edit files.
 
 ---
 
