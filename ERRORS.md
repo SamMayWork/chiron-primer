@@ -41,8 +41,6 @@ If Windows fails to start Docker due to an error indicating that the current use
 
 ## I've installed the prereqs but the start script isn't working
 
-![Turnitoff](images/restart.jpeg)
-
 If you've needed to install some new dependencies, try rebooting the machine or at least closing all terminal windows and reopening to get the leatest $PATH variables.
 
 It's probably quicker just to reboot your system.
